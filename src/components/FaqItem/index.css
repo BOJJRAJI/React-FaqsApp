@@ -1,0 +1,37 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e4e7eb;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.question-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.question-text {
+  font-family: 'Roboto';
+  font-size: 19px;
+  color: #52606d;
+  font-weight: 700;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+}
+.answer-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #9aa5b1;
+}
+.button {
+  border: none;
+  background-color: transparent;
+}
+.line {
+  background-color: #e4e7eb;
+  width: 100%;
+}

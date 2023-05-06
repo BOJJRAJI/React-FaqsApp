@@ -1,0 +1,31 @@
+.bg-container {
+  min-height: 100vh;
+  background-color: #f1f5f8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.faqs-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #cb8805;
+  font-weight: bold;
+  text-align: center;
+}
+.faqs-list-container {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
